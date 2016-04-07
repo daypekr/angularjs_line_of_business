@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		function this_will_be_window(){
+			
+			document.write("this_will_be_window:"+this+"<br />");
+		}
+		this_will_be_window();
+
+		var this_will_be_current_object={
+			display:function(){
+				document.write("this_will_be_current_object:"+this+"<br />");		
+			}			
+		}
+		this_will_be_current_object.display();
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
